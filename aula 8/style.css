@@ -1,0 +1,85 @@
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+#box2 {
+    width: 400px;
+    height: 400px;
+    background: url("imagem3.jpeg");
+background-repeat: no-repeat;
+}
+
+#box3 {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(100, 200, 234, 0.7);
+
+}
+
+#box4 {
+    width: 400px;
+    height: 400px;
+   background: linear-gradient(purple, crimson)
+}
+
+#box5{
+    width: 400px;
+    height: 400px;
+   background: linear-gradient(
+    to top, purple, crimson)
+}
+
+#box6 {
+    width: 1000px;
+    height: 1000px;
+   background-color: yellow;
+}
+
+#box7 {
+    width: 100px;
+    height: 100px;
+   background-color: blueviolet;
+   box-shadow: 10px -30px 20px 10px green;
+}
+
+@keyframes aumentar{
+    25% {
+        background-color: rgb(255, 234, 2);
+        width: 100px;
+    }
+
+    50% {
+        background-color:rgb(181, 148, 27);
+        width: 200px;
+    }
+
+    100% {
+        background-color: #817241;
+        width: 400px;
+    }
+}
+
+#box8 {
+    width: 100px;
+    height: 100px;
+    animation: aumentar 2s infinite alternate;
+    background-color: yellow;
+}
+
+#box9 {
+width: 200px;
+height: 100px;
+background-color: blue;
+}
+
+#box9:hover {
+background-color: black;
+width: 200px;
+height: 100px;
+transition: background-color 2s, width 1s, height 1s;
+}
+

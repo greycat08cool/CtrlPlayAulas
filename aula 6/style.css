@@ -1,0 +1,47 @@
+.irmao ~ p
+{
+    color: darkgoldenrod;
+}
+
+div p 
+{
+    color: red ;
+
+}
+
+.irmao ~ p {
+    border: 10px solid blue
+}
+
+.divDois + p
+{
+    font-size: 30px;
+}
+
+p
+{
+    color: purple;
+}
+
+
+
+button:hover
+{
+    padding: 20px;
+    color: aquamarine;
+    background-color: black;
+
+}
+
+body > p::first-letter{
+
+    font-size: 200px;
+    color: black;
+}
+
+
+tr:nth-child(even)
+{background-color:rgb(202, 198, 198) ;}
+
+tr:nth-child(odd)
+{background-color: rgb(148, 148, 148);}

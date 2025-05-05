@@ -1,0 +1,34 @@
+img[src = "imagem3.jpeg"]{
+    border-radius: 1000px;
+}
+
+img[src *= "2"]{
+    border: 10px solid red;
+}
+
+img[src ^= "ima"]{
+    width: 200px;
+}
+
+img[src $= "jpeg"]{
+    height: 300px;
+}
+
+
+a[href = "site1"]{
+    color: red;
+}
+
+a[href *= "lin"]{
+    color: green;
+}
+
+a[href $= "2"]{
+    color: yellow;
+}
+
+
+
+a[href ^= "si"]{
+    font-size: 30px;
+}
